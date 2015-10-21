@@ -1,0 +1,544 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,300,300italic,500,500italic,700,700italic,900,900italic,100);
+.col-xs-12 {
+    text-align: center;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/main.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.logoL {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 40px 0 0 95px;
+}
+
+.logoL:hover {
+    text-transform: uppercase;
+    color: #FE4E50;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 40px 0 0 95px;
+}
+
+#divLogoR {
+    margin-top: 45px;
+    padding-left: 219px;
+}
+
+.logoR {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logoR:hover {
+    color: #FE4E50;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#logoR {
+    border: 2px solid #fff;
+    border-radius: 18px;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+#logoR:hover {
+    border: 2px solid #FE4E50;
+    border-radius: 18px;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 149px;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+.search {
+    text-align: center;
+    margin-top: 37px;
+}
+
+.search span {
+    border-radius: 20px;
+    background-clip: padding-box;
+    background-color: #ff4d4f;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.how {
+    text-align: center;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+#carousel1 {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#carousel2 {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#carousel {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.alignCenter {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 420px) and (max-device-width: 960px) {
+    .carousel {
+        width: 31% !important;
+    }
+    .divCatPict {
+        width: 230px!important;
+        margin: 5px 3px !important;
+    }
+    .divCatPict img {
+        width: 100% !important;
+    }
+    #bigDiv5 {
+        width: 474px!important;
+    }
+    #bigDiv5 img {
+        width: 100% !important;
+    }
+    #bigDiv6 {
+        width: 474px!important;
+    }
+    #bigDiv6 img {
+        width: 100% !important;
+    }
+    #urlaub {
+        margin-left: 50px!important;
+    }
+    #footerImg img {
+        margin-right: 50px!important;
+    }
+    .seeOtherPartners {
+        margin-top: 5px!important;
+    }
+    .partner {
+        width: 33%!important;
+    }
+    .partner p {
+        width: auto!important;
+    }
+    .logoL {
+        margin-left: 40px!important;
+        width: 300px;
+        display: inline-block;
+    }
+    #divLogoR {
+        padding-left: 80px!important;
+        padding-right: 0px!important;
+    }
+}
+
+.logoL1 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 176px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-device-width: 414px) {
+    h1 {
+        color: #fff;
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 49px;
+    }
+    h3 {
+        text-align: center;
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 23px;
+        margin-top: 24px;
+        font-weight: 500;
+    }
+    .search span {
+        border-radius: 20px;
+        background-clip: padding-box;
+        background-color: #ff4d4f;
+        color: #fff;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 50px;
+    }
+    #divLogoR {
+        margin-top: 35px;
+        padding-left: 0;
+    }
+    #carousel1 {
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 0 !important;
+        margin-top: 5px;
+    }
+    #carousel2 {
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 0 !important;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #carousel {
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 0 !important;
+        margin-top: 5px;
+    }
+    .carousel-inner {
+        height: 270px !important;
+    }
+    .carousel-caption {
+        bottom: 90px;
+    }
+    .glyphicon-chevron-left {
+        visibility: hidden !important;
+    }
+    .glyphicon-chevron-right {
+        visibility: hidden !important;
+    }
+    .seeOtherPartners span {
+        padding: 8px 70px !important;
+    }
+    .divCatPict {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 5px;
+        margin: 3px 0 0 8px !important;
+    }
+    .divCatPict img {
+        position: relative;
+        bottom: 80px;
+        border-radius: 5px;
+    }
+    .seeOtherPartners {
+        margin-bottom: 10px !important;
+        margin-top: 0px !important;
+    }
+    .how {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #bigDiv5 {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    #bigDiv5 img {
+        position: relative;
+        right: 160px;
+        bottom: 80px;
+    }
+    #bigDiv6 {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    #bigDiv6 img {
+        position: relative;
+        right: 160px;
+        bottom: 80px;
+    }
+    #input1 {
+        width: 95% !important;
+    }
+    #input2 {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        width: 95% !important;
+    }
+    .footer {
+        margin-top: 30px !important;
+    }
+    #footer {
+        margin-top: 20px !important;
+    }
+    #urlaub {
+        margin-left: 0px !important;
+        display: block;
+        text-align: center;
+    }
+    #company {
+        display: block !important;
+        margin-top: 20px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    #company ul {
+        margin-top: 5px !important;
+    }
+    #company ul li {
+        display: inline;
+    }
+    #partners {
+        display: block !important;
+        margin-top: 20px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    #footerImg {
+        float: none !important;
+    }
+    #footerImg img {
+        margin-right: 0 !important;
+        margin-top: 20px;
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+}
+
+.carCaptP1 {
+    border-radius: 10px;
+    width: 70px;
+    background-color: #ff4d4f;
+    padding: 3px 3px;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.carCaptP2 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1;
+}
+
+.carCaptP3 {
+    color: #cbcbcb;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 50%px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1.1;
+}
+
+.carousel-caption {
+    padding-bottom: 0;
+    right: 0%;
+    left: 0%;
+}
+
+.partner {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.partner h5 {
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.partner p {
+    color: #656565;
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 200px;
+    height: 200px;
+}
+
+.seeOtherPartners {
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 30px;
+}
+
+.seeOtherPartners span {
+    color: #ff4d4f;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #ff4d4f;
+    border-radius: 20px;
+    background-clip: padding-box;
+    background-color: #fff;
+    padding: 8px 25px;
+}
+
+.divCatPict {
+    display: inline-block;
+    margin: 8px 8px;
+}
+
+.hi {
+    text-align: center;
+    color: #333;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.input {
+    text-align: center;
+}
+
+#input1 {
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background-clip: padding-box;
+    background-color: #fff;
+    box-shadow: 0 1px 0 #eee;
+    color: #999;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 10px 10px;
+    width: 225px;
+    margin-bottom: 10px;
+}
+
+#input2 {
+    border: 1px solid #ff4d4f;
+    border-radius: 20px;
+    margin: 10px 8px;
+    background-color: #ff4d4f;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px;
+    width: 151px;
+}
+
+.footer {
+    margin-top: 90px;
+    border-top: 3px solid #ff4e50;
+    height: 170px;
+}
+
+#footer {
+    margin-top: 40px;
+}
+
+#footer span {
+    vertical-align: top;
+}
+
+#company {
+    display: inline-block;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#company ul {
+    margin-top: 15px;
+}
+
+#company ul,
+li {
+    list-style-type: none;
+    color: #656565;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 0;
+}
+
+#urlaub {
+    color: #ff4d50;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 230px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#partners {
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#footerImg {
+    float: right;
+}
+
+#footer span img {
+    vertical-align: top;
+    margin-right: 200px;
+}
